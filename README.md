@@ -49,7 +49,7 @@ That design is intentionally not ready to run. One canonical implementation deta
 - [`docs/primary/`](docs/primary/) contains Markdown renderings of the formal paper and single-loop witness.
 - [`OPEN_PROBLEMS.md`](OPEN_PROBLEMS.md) states the remaining work as testable research tasks.
 - [`experiments/two-module/`](experiments/two-module/) contains the preferred next-test specification.
-- [`experiments/r3/`](experiments/r3/) preserves exploratory code and result summaries with their limits.
+- [`experiments/r3/`](experiments/r3/) preserves exploratory code, result summaries, and a dependency-incomplete supplementary branch with their limits.
 - [`experiments/raf/`](experiments/raf/) preserves the abandoned RAF route as negative methodological work.
 - [`docs/SOURCES_AND_PROVENANCE.md`](docs/SOURCES_AND_PROVENANCE.md) records provenance, transformations, and known omissions.
 

@@ -14,6 +14,12 @@ The sequence matters because its intermediate labels can mislead when separated 
 
 The final limit is decisive: these were projection and autonomy stress tests on a single constructed loop, not a new modular physical substrate containing a genuine proper sub-closure and a matched mis-governed rival. They therefore do not close WCA-01.
 
+## Supplementary recovered branch
+
+The [`recovered/`](recovered/) directory preserves a separate R³ implementation branch supplied after the initial repository assembly. It includes a three-coordinate substrate, a gated partition battery, oblique-frame sweep drivers, and a six-seed CSV output.
+
+This branch does not replace the standalone sequence described above and does not close the missing-source item WCA-08. Its substrate imports operational thresholds from the still-absent `wca_claim2.py`, so the code is dependency-incomplete even though the supplied Python files are syntactically valid. See the directory README for the exact limits and file relationships.
+
 ## Reproduction warning
 
 The scripts are preserved as recovered and several retain paths from the original execution environment, including `/mnt/data`. Run them in a disposable environment and inspect output paths before execution. The generated JSON files and summaries needed to inspect the recorded sequence are included; redundant ZIP bundles are not.
