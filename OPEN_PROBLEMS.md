@@ -12,7 +12,7 @@ The list is ordered by expected information gain, not by ease. Each item is a ha
 
 **Precommitments:**
 
-- recover and freeze the canonical C2 enforcement ratio before parameter search;
+- freeze a declared higher-dimensional extension of the recovered scalar C2 enforcement ratio before parameter search, including its norm, coordinate scaling, complement projection, and aggregation rule;
 - set all thresholds and the permitted transformation family in advance;
 - give the evaluator trajectories and candidate partitions but no module labels;
 - prespecify the orthogonal/oblique cross-cut family and its condition-number bound;
@@ -57,6 +57,8 @@ If no such cases can be found across suitable paradigms, the two-axis structure 
 
 The single-loop witness tests controller rescaling, monotone time reparameterization, and a bounded-condition-number carving family. General work remains on which transformation group `G` is appropriate for a substrate class, how frame bounds are justified, and whether verdict stability survives changes in those choices.
 
-## WCA-08 — Recover and verify the canonical single-loop source package
+## Resolved recovery item
 
-The single-loop paper names `wca_claim2.py`, `probes.py`, and `frame_sweep.py` as archived source files. Those exact files were not present in the recovered local research collection used to assemble this handoff. A later recovery added `wca_claim2_r3.py`, but it is a distinct extension and imports `THRESH` from the still-missing `wca_claim2.py`; it does not substitute for any of the three deposited files. Retrieve the named package from DOI `10.5281/zenodo.20767308`, verify hashes and outputs, and add it without rewriting history. Until then, this repository contains the paper's account but cannot itself reproduce that witness.
+### WCA-08 — Recover and verify the canonical single-loop source package — closed 23 September 2026
+
+The author supplied `wca_claim2.py`, `probes.py`, and `frame_sweep.py`, the three exact filenames named by the single-loop paper. They are preserved unchanged under `experiments/single-loop/src/` with SHA-256 hashes. The probe suite and frame sweep executed successfully and reproduced the paper's stated verdicts, including rejection of all 60 tested split blocks and the `0.29` rounded minimum enforcement fraction. Remote Zenodo byte identity was not independently checked because a remote checksum manifest was unavailable; the closure rests on author-source provenance, recorded hashes, internal correspondence, and behavioral reproduction.

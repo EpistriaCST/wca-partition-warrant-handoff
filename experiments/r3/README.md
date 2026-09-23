@@ -18,7 +18,7 @@ The final limit is decisive: these were projection and autonomy stress tests on 
 
 The [`recovered/`](recovered/) directory preserves a separate R³ implementation branch supplied after the initial repository assembly. It includes a three-coordinate substrate, a gated partition battery, oblique-frame sweep drivers, and a six-seed CSV output.
 
-This branch does not replace the standalone sequence described above and does not close the missing-source item WCA-08. Its substrate imports operational thresholds from the still-absent `wca_claim2.py`, so the code is dependency-incomplete even though the supplied Python files are syntactically valid. See the directory README for the exact limits and file relationships.
+This branch does not replace the standalone sequence described above. Its substrate imports operational thresholds from the canonical `wca_claim2.py`, now recovered under `experiments/single-loop/src/`. With that dependency available, the gated battery and six-seed sweep were independently rerun; the latter reproduced the supplied CSV byte-for-byte. See the directory README for the exact limits and file relationships.
 
 ## Reproduction warning
 

@@ -42,16 +42,17 @@ The detailed claim ledger is in [EVIDENCE_LEDGER.md](EVIDENCE_LEDGER.md). The pr
 
 The highest-value continuation is the [two-module test](experiments/two-module/README.md). It asks whether `W_CA` can admit a genuine proper sub-closure while rejecting a same-dimensional cross-cut rival, and whether it can do so when a minimum-coupling or Markov-blanket-like partition points elsewhere.
 
-That design is intentionally not ready to run. One canonical implementation detail remains unresolved in the recovered materials: the exact deposited C2 enforcement ratio must be recovered and frozen before parameters are chosen. The threshold reported by the single-loop witness is `0.15`, with the negative-carve result invariant across thresholds in `(0, 0.29)`. An exploratory R³ implementation used a blocked-motion fraction, but this repository does not silently promote that later implementation into the canonical rule.
+The canonical single-loop C2 implementation is now recovered. It measures the fraction of frame-coordinate motion suppressed by the imposed carving projection and uses the threshold `0.15`; the reproduced negative-carve result remained invariant throughout `(0, 0.29)`. The two-module design is still not ready to run unchanged, because extending that scalar two-coordinate ratio to higher-dimensional modules requires a declared norm, coordinate-scaling rule, complement projection, and aggregation convention. Those choices must be frozen before parameter search and identified as an extension of the deposited operationalization.
 
 ## Repository map
 
 - [`docs/primary/`](docs/primary/) contains Markdown renderings of the formal paper and single-loop witness.
+- [`experiments/single-loop/`](experiments/single-loop/) contains the recovered canonical source package and reproduction record.
 - [`OPEN_PROBLEMS.md`](OPEN_PROBLEMS.md) states the remaining work as testable research tasks.
 - [`experiments/two-module/`](experiments/two-module/) contains the preferred next-test specification.
-- [`experiments/r3/`](experiments/r3/) preserves exploratory code, result summaries, and a dependency-incomplete supplementary branch with their limits.
+- [`experiments/r3/`](experiments/r3/) preserves exploratory code, result summaries, and a supplementary branch with their limits.
 - [`experiments/raf/`](experiments/raf/) preserves the abandoned RAF route as negative methodological work.
-- [`docs/SOURCES_AND_PROVENANCE.md`](docs/SOURCES_AND_PROVENANCE.md) records provenance, transformations, and known omissions.
+- [`docs/SOURCES_AND_PROVENANCE.md`](docs/SOURCES_AND_PROVENANCE.md) records provenance, transformations, and verification status.
 
 ## Primary records
 

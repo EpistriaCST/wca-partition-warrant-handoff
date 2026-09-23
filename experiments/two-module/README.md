@@ -8,11 +8,11 @@ The test uses two independently validated plant–controller maintenance loops j
 
 Read the full [design specification](design-spec.md) and WCA-01 in the repository's [open-problem register](../../OPEN_PROBLEMS.md).
 
-## Blocking issue before implementation
+## Remaining issue before implementation
 
-The current design draft contains a placeholder for the exact canonical C2 enforcement ratio. The single-loop paper records the threshold `0.15` and reports robustness throughout `(0, 0.29)`, but the named deposited source files were not recovered with the local materials.
+The canonical single-loop C2 calculation is now recovered. For each one-dimensional block in a two-coordinate carving frame, it divides accumulated motion suppressed in the frozen complementary coordinate by that suppressed motion plus accumulated free motion in the block's own coordinate. C2 requires the ratio to be below `0.15`; the reproduced split minimum rounded to `0.29`.
 
-Do not substitute a convenient new ratio without declaring a new operationalization. Recover and freeze the deposited formula first, or explicitly register the experiment as a test of a revised C2 rule.
+That scalar construction does not uniquely determine a higher-dimensional module rule. Before implementation, freeze the norm, coordinate scaling, complement projection, and time/coordinate aggregation. Treat those choices as an explicit extension of the deposited operationalization, not as its unchanged application.
 
 ## Minimum deliverables
 

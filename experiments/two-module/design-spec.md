@@ -1,4 +1,4 @@
-> **Archival handoff notice (22 September 2026).** This is an unbuilt design, not a preregistration or result. The canonical C2 formula referenced below was not recovered with the local source collection. The threshold reported by the single-loop paper is `0.15`, with the tested negative-carve verdict invariant throughout `(0, 0.29)`. An exploratory R³ implementation later used a blocked-motion fraction, but that implementation must not be substituted silently for the deposited rule.
+> **Archival handoff notice (updated 23 September 2026).** This is an unbuilt design, not a preregistration or result. The canonical single-loop C2 source is now recovered: its scalar two-coordinate enforcement fraction uses threshold `0.15`, with the reproduced negative-carve verdict invariant throughout `(0, 0.29)`. The source does not uniquely specify a higher-dimensional generalization. Any module-level norm, coordinate scaling, complement projection, or aggregation rule must therefore be frozen and declared as an extension before implementation.
 
 **Admitting a Proper Sub-Closure Without Labels**
 
@@ -78,12 +78,17 @@ partition identically.
     is defined for any S and never refers to "arms." *(Proposed here;
     the single-loop witness used designed-arm lesions.)*
 
-2.  **(C2) enforcement.** The coordinate-free enforcement ratio
-    deposited in the single-loop witness, applied unchanged to S under
-    replay. **BLOCKER: recover and paste the canonical deposited ratio
-    before implementation. The reported threshold is 0.15.** No change
-    to its form or threshold is permitted without being declared as a
-    revised operationalization.
+2.  **(C2) enforcement.** In the recovered single-loop source, one
+    frame coordinate is free and its complement is frozen. The
+    enforcement fraction is accumulated motion suppressed in the
+    frozen coordinate divided by that suppressed motion plus
+    accumulated free motion in the block's own coordinate, with C2
+    requiring a value below 0.15. Applying this idea to a
+    higher-dimensional S requires a prespecified norm, coordinate
+    scaling, complement projection, and time/coordinate aggregation.
+    Those choices must be frozen before parameter search and reported
+    as an extension of the deposited scalar rule, not as an unchanged
+    application.
 
 3.  **(C1) state-referentiality.** The perturbation discriminator:
     recovery trajectories must differ across perturbations targeting
