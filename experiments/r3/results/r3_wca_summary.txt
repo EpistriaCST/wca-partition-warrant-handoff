@@ -1,0 +1,19 @@
+R^3 W_CA harness summary
+global_verdict: R3_SAME_DIMENSIONAL_DISCRIMINATION_PASSED
+full loop: basin=1.000, mean_abs_error=0.038
+level-only pseudo-unit: basin=0.202, mean_abs_error=0.213
+rate_load_bearing: True
+lesions:
+  freeze_rate_prediction: basin=1.000, mean_abs_error=0.035, escaped_at=None
+  freeze_rate_state: basin=1.000, mean_abs_error=0.044, escaped_at=None
+  cut_rate_update: basin=1.000, mean_abs_error=0.043, escaped_at=None
+  cut_observation: basin=1.000, mean_abs_error=1.853, escaped_at=None
+partition battery:
+  full_loop__x_a_hat_rate_hat: mask=(1, 1, 1), t0=1, c2=True, basin=1.000, err=0.038, enforcement=0.000
+  pseudo_unit__x_a_hat__rate_external: mask=(1, 1, 0), t0=0, c2=False, basin=0.202, err=0.213, enforcement=0.015
+  plant_plus_rate__missing_level: mask=(1, 0, 1), t0=0, c2=False, basin=0.000, err=999.000, enforcement=0.983
+  controller_nested__a_hat_rate_hat: mask=(0, 1, 1), t0=1, c2=True, basin=1.000, err=0.038, enforcement=0.060
+  plant_only__x: mask=(1, 0, 0), t0=0, c2=False, basin=0.000, err=999.000, enforcement=0.984
+  level_only__a_hat: mask=(0, 1, 0), t0=0, c2=False, basin=0.000, err=999.000, enforcement=0.065
+  rate_only__rate_hat: mask=(0, 0, 1), t0=0, c2=False, basin=0.000, err=999.000, enforcement=1.000
+negative_control_accepts: []

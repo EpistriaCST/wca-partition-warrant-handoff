@@ -1,0 +1,187 @@
+{
+  "config": {
+    "seed": 7,
+    "dt": 0.05,
+    "steps": 1600,
+    "basin": 0.25,
+    "init_x": 0.12,
+    "base_growth": 0.35,
+    "control_margin": 0.02,
+    "plant_noise": 0.006,
+    "regime_accel_noise": 0.005,
+    "regime_rate_damping": 0.015,
+    "obs_noise": 0.04,
+    "obs_every": 20,
+    "q_level": 0.0001,
+    "q_rate": 0.0005,
+    "q_level_only": 5e-05,
+    "initial_a": 0.15,
+    "initial_rate": 0.08,
+    "t_basin": 0.8,
+    "t_calib_error": 0.1,
+    "t_rate_lesion_ratio": 1.75,
+    "t_enforcement_max": 0.15,
+    "t_negative_max": 0.35
+  },
+  "full_metrics": {
+    "basin_occupancy": 1.0,
+    "mean_abs_error": 0.0383298309175434,
+    "final_abs_error": 0.07423289010603051,
+    "escaped_at": null,
+    "mean_abs_x": 0.04288272383661658
+  },
+  "level_only_metrics": {
+    "basin_occupancy": 0.201875,
+    "mean_abs_error": 0.21331404452406666,
+    "final_abs_error": 0.5246576098838401,
+    "escaped_at": 323,
+    "mean_abs_x": 1318.9243000363847
+  },
+  "negative_full_metrics": {
+    "basin_occupancy": 1.0,
+    "mean_abs_error": 0.0383298309175434,
+    "final_abs_error": 0.07423289010603051,
+    "escaped_at": null,
+    "mean_abs_x": 0.007120847942174884
+  },
+  "negative_level_metrics": {
+    "basin_occupancy": 1.0,
+    "mean_abs_error": 0.040040242575539134,
+    "final_abs_error": 0.01914590793558535,
+    "escaped_at": null,
+    "mean_abs_x": 0.007120847942174884
+  },
+  "lesions": {
+    "freeze_rate_prediction": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.0354226894283227,
+      "final_abs_error": 0.023926548307025675,
+      "escaped_at": null,
+      "mean_abs_x": 0.1618169830706081
+    },
+    "freeze_rate_state": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.043918564897422206,
+      "final_abs_error": 0.04032612969675142,
+      "escaped_at": null,
+      "mean_abs_x": 0.02886420440937409
+    },
+    "cut_rate_update": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.04282324311612608,
+      "final_abs_error": 0.03233079821178397,
+      "escaped_at": null,
+      "mean_abs_x": 0.029484518997959813
+    },
+    "cut_observation": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 1.8531395429693516,
+      "final_abs_error": 4.631659898692016,
+      "escaped_at": null,
+      "mean_abs_x": 0.012612003646157213
+    }
+  },
+  "rate_load_bearing": true,
+  "partition_verdicts": [
+    {
+      "name": "full_loop__x_a_hat_rate_hat",
+      "mask": [
+        1,
+        1,
+        1
+      ],
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.0383298309175434,
+      "enforcement_fraction": 0.0,
+      "c2_pass": true,
+      "t0": 1,
+      "reason": "undivided loop; no boundary projection work"
+    },
+    {
+      "name": "pseudo_unit__x_a_hat__rate_external",
+      "mask": [
+        1,
+        1,
+        0
+      ],
+      "basin_occupancy": 0.201875,
+      "mean_abs_error": 0.21331404452406666,
+      "enforcement_fraction": 0.014751648634339391,
+      "c2_pass": false,
+      "t0": 0,
+      "reason": "same-dimensional pseudo-unit; rate governance excluded"
+    },
+    {
+      "name": "plant_plus_rate__missing_level",
+      "mask": [
+        1,
+        0,
+        1
+      ],
+      "basin_occupancy": 0.0,
+      "mean_abs_error": 999.0,
+      "enforcement_fraction": 0.9834432422892927,
+      "c2_pass": false,
+      "t0": 0,
+      "reason": "proper block lacks required governance channel"
+    },
+    {
+      "name": "controller_nested__a_hat_rate_hat",
+      "mask": [
+        0,
+        1,
+        1
+      ],
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.0383298309175434,
+      "enforcement_fraction": 0.06047147753367319,
+      "c2_pass": true,
+      "t0": 1,
+      "reason": "candidate nested estimator sub-unit; stratification mode only"
+    },
+    {
+      "name": "plant_only__x",
+      "mask": [
+        1,
+        0,
+        0
+      ],
+      "basin_occupancy": 0.0,
+      "mean_abs_error": 999.0,
+      "enforcement_fraction": 0.9835538734313987,
+      "c2_pass": false,
+      "t0": 0,
+      "reason": "proper block lacks required governance channel"
+    },
+    {
+      "name": "level_only__a_hat",
+      "mask": [
+        0,
+        1,
+        0
+      ],
+      "basin_occupancy": 0.0,
+      "mean_abs_error": 999.0,
+      "enforcement_fraction": 0.06501975177296576,
+      "c2_pass": false,
+      "t0": 0,
+      "reason": "proper block lacks required governance channel"
+    },
+    {
+      "name": "rate_only__rate_hat",
+      "mask": [
+        0,
+        0,
+        1
+      ],
+      "basin_occupancy": 0.0,
+      "mean_abs_error": 999.0,
+      "enforcement_fraction": 0.999889867984966,
+      "c2_pass": false,
+      "t0": 0,
+      "reason": "proper block lacks required governance channel"
+    }
+  ],
+  "negative_control_accepts": [],
+  "global_verdict": "R3_SAME_DIMENSIONAL_DISCRIMINATION_PASSED"
+}

@@ -1,0 +1,57 @@
+R^3 direct rate-arm robustness battery
+Criterion: direct lesion of the same full controller, not full-vs-level-only.
+
+Exact operating point:
+{'initial_rate': 0.8, 'obs_every': 20, 'obs_noise': 0.005, 'control_margin': 0.01, 'basin': 0.12, 'regime_accel_noise': 0.0, 'regime_rate_damping': 0.0, 'q_rate': 1e-05, 'q_level': 1e-06, 'q_level_only': 1e-06, 'steps': 350}
+  full_pass_fraction: 0.533
+  all_direct_degraded_fraction_given_full_pass: 0.000
+  any_direct_degraded_fraction_given_full_pass: 1.000
+  freeze_rate_prediction: degrade_frac=1.000, median_ratio=1330.97, min_ratio=893.82
+  freeze_rate_state: degrade_frac=0.000, median_ratio=0.78, min_ratio=0.69
+  cut_rate_update: degrade_frac=0.000, median_ratio=0.80, min_ratio=0.72
+
+Best 15-seed retests:
+1. full_pass=1.000; all_direct_given_full=1.000; any_direct_given_full=1.000
+   config={'initial_rate': 1.1, 'obs_every': 20, 'obs_noise': 0.01, 'control_margin': 0.01, 'basin': 0.15, 'regime_accel_noise': 0.0, 'regime_rate_damping': 0.015, 'q_rate': 1e-05, 'q_level': 1e-06, 'q_level_only': 1e-06, 'steps': 350}
+   freeze_rate_prediction: degrade_frac=1.000, median_ratio=600.11, min_ratio=399.28
+   freeze_rate_state: degrade_frac=1.000, median_ratio=5.59, min_ratio=4.02
+   cut_rate_update: degrade_frac=1.000, median_ratio=4.25, min_ratio=3.13
+2. full_pass=1.000; all_direct_given_full=1.000; any_direct_given_full=1.000
+   config={'initial_rate': 0.5, 'obs_every': 20, 'obs_noise': 0.01, 'control_margin': 0.01, 'basin': 0.15, 'regime_accel_noise': 0.0, 'regime_rate_damping': 0.015, 'q_rate': 1e-05, 'q_level': 1e-06, 'q_level_only': 1e-06, 'steps': 350}
+   freeze_rate_prediction: degrade_frac=1.000, median_ratio=342.27, min_ratio=216.35
+   freeze_rate_state: degrade_frac=1.000, median_ratio=3.53, min_ratio=2.60
+   cut_rate_update: degrade_frac=1.000, median_ratio=2.75, min_ratio=2.11
+3. full_pass=1.000; all_direct_given_full=1.000; any_direct_given_full=1.000
+   config={'initial_rate': 1.1, 'obs_every': 20, 'obs_noise': 0.01, 'control_margin': 0.02, 'basin': 0.15, 'regime_accel_noise': 0.0, 'regime_rate_damping': 0.005, 'q_rate': 1e-05, 'q_level': 1e-06, 'q_level_only': 1e-06, 'steps': 350}
+   freeze_rate_prediction: degrade_frac=1.000, median_ratio=880.07, min_ratio=561.74
+   freeze_rate_state: degrade_frac=1.000, median_ratio=2.88, min_ratio=2.23
+   cut_rate_update: degrade_frac=1.000, median_ratio=2.27, min_ratio=1.85
+4. full_pass=1.000; all_direct_given_full=1.000; any_direct_given_full=1.000
+   config={'initial_rate': 0.8, 'obs_every': 10, 'obs_noise': 0.005, 'control_margin': 0.01, 'basin': 0.15, 'regime_accel_noise': 0.005, 'regime_rate_damping': 0.015, 'q_rate': 1e-05, 'q_level': 1e-06, 'q_level_only': 1e-06, 'steps': 350}
+   freeze_rate_prediction: degrade_frac=1.000, median_ratio=1228.01, min_ratio=912.13
+   freeze_rate_state: degrade_frac=1.000, median_ratio=6.45, min_ratio=4.54
+   cut_rate_update: degrade_frac=1.000, median_ratio=4.62, min_ratio=3.31
+5. full_pass=1.000; all_direct_given_full=0.867; any_direct_given_full=1.000
+   config={'initial_rate': 0.5, 'obs_every': 40, 'obs_noise': 0.01, 'control_margin': 0.02, 'basin': 0.15, 'regime_accel_noise': 0.02, 'regime_rate_damping': 0.0, 'q_rate': 1e-05, 'q_level': 1e-06, 'q_level_only': 1e-06, 'steps': 350}
+   freeze_rate_prediction: degrade_frac=1.000, median_ratio=178.41, min_ratio=148.72
+   freeze_rate_state: degrade_frac=0.867, median_ratio=3.23, min_ratio=1.19
+   cut_rate_update: degrade_frac=0.867, median_ratio=3.06, min_ratio=1.17
+6. full_pass=0.933; all_direct_given_full=1.000; any_direct_given_full=1.000
+   config={'initial_rate': 1.1, 'obs_every': 20, 'obs_noise': 0.01, 'control_margin': 0.02, 'basin': 0.12, 'regime_accel_noise': 0.005, 'regime_rate_damping': 0.015, 'q_rate': 1e-05, 'q_level': 1e-06, 'q_level_only': 1e-06, 'steps': 350}
+   freeze_rate_prediction: degrade_frac=1.000, median_ratio=538.53, min_ratio=416.21
+   freeze_rate_state: degrade_frac=1.000, median_ratio=5.09, min_ratio=3.50
+   cut_rate_update: degrade_frac=1.000, median_ratio=3.89, min_ratio=2.75
+7. full_pass=0.933; all_direct_given_full=1.000; any_direct_given_full=1.000
+   config={'initial_rate': 1.1, 'obs_every': 40, 'obs_noise': 0.01, 'control_margin': 0.02, 'basin': 0.12, 'regime_accel_noise': 0.02, 'regime_rate_damping': 0.015, 'q_rate': 1e-05, 'q_level': 1e-06, 'q_level_only': 1e-06, 'steps': 350}
+   freeze_rate_prediction: degrade_frac=1.000, median_ratio=288.16, min_ratio=188.80
+   freeze_rate_state: degrade_frac=1.000, median_ratio=4.24, min_ratio=2.23
+   cut_rate_update: degrade_frac=1.000, median_ratio=4.01, min_ratio=2.11
+8. full_pass=0.933; all_direct_given_full=1.000; any_direct_given_full=1.000
+   config={'initial_rate': 0.5, 'obs_every': 10, 'obs_noise': 0.01, 'control_margin': 0.02, 'basin': 0.12, 'regime_accel_noise': 0.0, 'regime_rate_damping': 0.015, 'q_rate': 1e-05, 'q_level': 1e-06, 'q_level_only': 1e-06, 'steps': 350}
+   freeze_rate_prediction: degrade_frac=1.000, median_ratio=514.00, min_ratio=403.41
+   freeze_rate_state: degrade_frac=1.000, median_ratio=3.59, min_ratio=2.91
+   cut_rate_update: degrade_frac=1.000, median_ratio=2.10, min_ratio=1.79
+
+robust_all_direct_15_seed_count: 7
+robust_any_direct_15_seed_count: 8
+Verdict: robust all-direct rate-arm load-bearing point found under the stated thresholds.

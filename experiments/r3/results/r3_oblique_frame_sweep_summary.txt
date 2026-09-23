@@ -1,0 +1,37 @@
+R^3 3D oblique-frame sweep with viability gate
+
+Operating point: {'initial_rate': 1.1, 'obs_every': 20, 'obs_noise': 0.01, 'control_margin': 0.01, 'basin': 0.15, 'regime_rate_damping': 0.015, 'regime_accel_noise': 0.0, 'q_rate': 1e-05, 'q_level': 1e-06, 'q_level_only': 1e-06, 'steps': 350}
+Seeds: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
+Frames per seed: 160; 2D carves per frame: 3
+Competitors evaluated: 7200
+Viable competitors: 60
+Global counts: {'nonviable': 7140, 'viable_rejected': 0, 'viable_accepted': 60}
+Viable rejection fraction: 0.0
+Viable acceptance fraction: 1.0
+
+Rejection modes:
+  basin_or_calibration_failure: 7140
+  none: 60
+
+Seeds failing full/rate-arm precondition: 0
+
+Per-seed counts:
+  seed 1: full=True, rate=True, counts={'nonviable': 475, 'viable_rejected': 0, 'viable_accepted': 5}
+  seed 2: full=True, rate=True, counts={'nonviable': 477, 'viable_rejected': 0, 'viable_accepted': 3}
+  seed 3: full=True, rate=True, counts={'nonviable': 476, 'viable_rejected': 0, 'viable_accepted': 4}
+  seed 4: full=True, rate=True, counts={'nonviable': 477, 'viable_rejected': 0, 'viable_accepted': 3}
+  seed 5: full=True, rate=True, counts={'nonviable': 475, 'viable_rejected': 0, 'viable_accepted': 5}
+  seed 6: full=True, rate=True, counts={'nonviable': 475, 'viable_rejected': 0, 'viable_accepted': 5}
+  seed 7: full=True, rate=True, counts={'nonviable': 476, 'viable_rejected': 0, 'viable_accepted': 4}
+  seed 8: full=True, rate=True, counts={'nonviable': 473, 'viable_rejected': 0, 'viable_accepted': 7}
+  seed 9: full=True, rate=True, counts={'nonviable': 475, 'viable_rejected': 0, 'viable_accepted': 5}
+  seed 10: full=True, rate=True, counts={'nonviable': 478, 'viable_rejected': 0, 'viable_accepted': 2}
+  seed 11: full=True, rate=True, counts={'nonviable': 475, 'viable_rejected': 0, 'viable_accepted': 5}
+  seed 12: full=True, rate=True, counts={'nonviable': 476, 'viable_rejected': 0, 'viable_accepted': 4}
+  seed 13: full=True, rate=True, counts={'nonviable': 478, 'viable_rejected': 0, 'viable_accepted': 2}
+  seed 14: full=True, rate=True, counts={'nonviable': 477, 'viable_rejected': 0, 'viable_accepted': 3}
+  seed 15: full=True, rate=True, counts={'nonviable': 477, 'viable_rejected': 0, 'viable_accepted': 3}
+
+Verdict: FAILED/UNDECIDED: at least one viable oblique competitor was admitted.
+
+Limit: this is a frame-stress replay/projection test, not an autonomous modular substrate demonstration.

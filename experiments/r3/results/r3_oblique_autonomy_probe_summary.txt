@@ -1,0 +1,19 @@
+R^3 oblique autonomy probe: trajectory-fit vs autonomous governance
+
+Input viable accepted oblique planes: 60
+Classification counts: {'trajectory_hugger_rejected': 60}
+Rejected as trajectory-huggers: 60
+Autonomous candidates survived: 0
+Median restore fraction: 0.0
+Max restore fraction: 0.05
+Median final deviation ratio over planes: 140.95240407128972
+Median tail deviation ratio over planes: 126.73132512307689
+
+Verdict: PASSED: all replay-admitted oblique planes failed off-trajectory autonomy.
+
+Interpretation:
+  Replay viability is not enough. A plane must restore from perturbations internal to its own 2D coordinates.
+  Planes rejected here are trajectory-huggers: they shadow the intact path but do not supply autonomous governance.
+
+Method limit:
+  projected-vector-field perturbation test of replay-admitted oblique planes; not a full modular autonomous substrate

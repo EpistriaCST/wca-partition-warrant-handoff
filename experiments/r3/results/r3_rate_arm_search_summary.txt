@@ -1,0 +1,26 @@
+hits: 271
+
+score 2206.988 degraded ['freeze_rate_prediction', 'freeze_rate_state', 'cut_rate_update']
+{'initial_rate': 0.8, 'regime_accel_noise': 0.0, 'regime_rate_damping': 0.005, 'obs_every': 20, 'obs_noise': 0.005, 'control_margin': 0.01, 'basin': 0.12, 'q_rate': 1e-05, 'q_level': 1e-06, 'q_level_only': 1e-05, 'steps': 500}
+full {'basin_occupancy': 1.0, 'mean_abs_error': 0.004343089674506329, 'final_abs_error': 0.0030629427109047924, 'escaped_at': None, 'mean_abs_x': 0.06765079863795574}
+ratios {'freeze_rate_prediction': 2203.99, 'freeze_rate_state': 5.49, 'cut_rate_update': 5.07}
+
+score 2043.155 degraded ['freeze_rate_prediction', 'freeze_rate_state', 'cut_rate_update']
+{'initial_rate': 0.8, 'regime_accel_noise': 0.005, 'regime_rate_damping': 0.005, 'obs_every': 10, 'obs_noise': 0.005, 'control_margin': 0.005, 'basin': 0.15, 'q_rate': 0.0001, 'q_level': 0.0001, 'q_level_only': 1e-06, 'steps': 500}
+full {'basin_occupancy': 1.0, 'mean_abs_error': 0.004125925919937124, 'final_abs_error': 0.005415376033298003, 'escaped_at': None, 'mean_abs_x': 0.07825560717360219}
+ratios {'freeze_rate_prediction': 2040.16, 'freeze_rate_state': 4.21, 'cut_rate_update': 4.39}
+
+score 1927.883 degraded ['freeze_rate_prediction']
+{'initial_rate': 0.8, 'regime_accel_noise': 0.0, 'regime_rate_damping': 0.0, 'obs_every': 40, 'obs_noise': 0.005, 'control_margin': 0.002, 'basin': 0.15, 'q_rate': 0.001, 'q_level': 1e-06, 'q_level_only': 1e-05, 'steps': 500}
+full {'basin_occupancy': 1.0, 'mean_abs_error': 0.005178582758138951, 'final_abs_error': 0.0052694255525054245, 'escaped_at': None, 'mean_abs_x': 0.0793603541532138}
+ratios {'freeze_rate_prediction': 1926.88, 'freeze_rate_state': 0.59, 'cut_rate_update': 0.58}
+
+score 1588.395 degraded ['freeze_rate_prediction']
+{'initial_rate': 0.8, 'regime_accel_noise': 0.0, 'regime_rate_damping': 0.0, 'obs_every': 10, 'obs_noise': 0.01, 'control_margin': 0.02, 'basin': 0.12, 'q_rate': 1e-05, 'q_level': 0.0001, 'q_level_only': 1e-05, 'steps': 500}
+full {'basin_occupancy': 1.0, 'mean_abs_error': 0.006285189086107234, 'final_abs_error': 0.003535302896551684, 'escaped_at': None, 'mean_abs_x': 0.06638969251307317}
+ratios {'freeze_rate_prediction': 1587.4, 'freeze_rate_state': 0.93, 'cut_rate_update': 0.99}
+
+score 1466.329 degraded ['freeze_rate_prediction', 'freeze_rate_state', 'cut_rate_update']
+{'initial_rate': 0.8, 'regime_accel_noise': 0.0, 'regime_rate_damping': 0.015, 'obs_every': 20, 'obs_noise': 0.005, 'control_margin': 0.02, 'basin': 0.15, 'q_rate': 0.0005, 'q_level': 1e-05, 'q_level_only': 1e-06, 'steps': 500}
+full {'basin_occupancy': 1.0, 'mean_abs_error': 0.006034481639599145, 'final_abs_error': 0.004632298658194145, 'escaped_at': None, 'mean_abs_x': 0.05842754655986411}
+ratios {'freeze_rate_prediction': 1463.33, 'freeze_rate_state': 9.21, 'cut_rate_update': 10.21}

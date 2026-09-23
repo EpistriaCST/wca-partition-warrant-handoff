@@ -1,0 +1,1475 @@
+[
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.12,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.01,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.0,
+      "regime_rate_damping": 0.005,
+      "obs_noise": 0.005,
+      "obs_every": 20,
+      "q_level": 1e-06,
+      "q_rate": 1e-05,
+      "q_level_only": 1e-05,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.004343089674506329,
+      "final_abs_error": 0.0030629427109047924,
+      "escaped_at": null,
+      "mean_abs_x": 0.06765079863795574
+    },
+    "level_only": {
+      "basin_occupancy": 0.008,
+      "mean_abs_error": 9.572119126710794,
+      "final_abs_error": 18.75653073401885,
+      "escaped_at": 4,
+      "mean_abs_x": 5.089856017480476e+77
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.008,
+        "mean_abs_error": 9.572119128162264,
+        "final_abs_error": 18.756530735476147,
+        "escaped_at": 4,
+        "mean_abs_x": 5.089856147700136e+77
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.023839758853664697,
+        "final_abs_error": 0.0910563114590488,
+        "escaped_at": null,
+        "mean_abs_x": 0.05882483372662939
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.022020753651544468,
+        "final_abs_error": 0.08709440726878981,
+        "escaped_at": null,
+        "mean_abs_x": 0.05947818692940105
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 2203.98836900606,
+      "freeze_rate_state": 5.489124250324055,
+      "cut_rate_update": 5.07029679373303
+    },
+    "score": 2206.98836900606
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.15,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.005,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.005,
+      "regime_rate_damping": 0.005,
+      "obs_noise": 0.005,
+      "obs_every": 10,
+      "q_level": 0.0001,
+      "q_rate": 0.0001,
+      "q_level_only": 1e-06,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.004125925919937124,
+      "final_abs_error": 0.005415376033298003,
+      "escaped_at": null,
+      "mean_abs_x": 0.07825560717360219
+    },
+    "level_only": {
+      "basin_occupancy": 0.042,
+      "mean_abs_error": 8.684304778444586,
+      "final_abs_error": 17.11120606120347,
+      "escaped_at": 21,
+      "mean_abs_x": 2.7921370861399713e+71
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.058,
+        "mean_abs_error": 8.417529139501754,
+        "final_abs_error": 16.83651269835824,
+        "escaped_at": 29,
+        "mean_abs_x": 2.3595678301590645e+69
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.01736840703001865,
+        "final_abs_error": 0.06175312552322154,
+        "escaped_at": null,
+        "mean_abs_x": 0.06987331434423613
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.018094501338393718,
+        "final_abs_error": 0.06332309463292773,
+        "escaped_at": null,
+        "mean_abs_x": 0.06947486210268362
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 2040.155180398884,
+      "freeze_rate_state": 4.209578011590507,
+      "cut_rate_update": 4.385561372044573
+    },
+    "score": 2043.155180398884
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.15,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.002,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.0,
+      "regime_rate_damping": 0.0,
+      "obs_noise": 0.005,
+      "obs_every": 40,
+      "q_level": 1e-06,
+      "q_rate": 0.001,
+      "q_level_only": 1e-05,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.005178582758138951,
+      "final_abs_error": 0.0052694255525054245,
+      "escaped_at": null,
+      "mean_abs_x": 0.0793603541532138
+    },
+    "level_only": {
+      "basin_occupancy": 0.038,
+      "mean_abs_error": 9.978525156498073,
+      "final_abs_error": 19.95851923343162,
+      "escaped_at": 19,
+      "mean_abs_x": 2.191596765739018e+80
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.038,
+        "mean_abs_error": 9.97852515794989,
+        "final_abs_error": 19.958519234889273,
+        "escaped_at": 19,
+        "mean_abs_x": 2.1915968212463764e+80
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.003064993977916335,
+        "final_abs_error": 0.003271209224656957,
+        "escaped_at": null,
+        "mean_abs_x": 0.07906812908810275
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.0029956970042295237,
+        "final_abs_error": 0.003168961717889829,
+        "escaped_at": null,
+        "mean_abs_x": 0.07904971447073675
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 1926.8834011133802,
+      "freeze_rate_state": 0.5918596112226301,
+      "cut_rate_update": 0.5784781559242861
+    },
+    "score": 1927.8834011133802
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.12,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.02,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.0,
+      "regime_rate_damping": 0.0,
+      "obs_noise": 0.01,
+      "obs_every": 10,
+      "q_level": 0.0001,
+      "q_rate": 1e-05,
+      "q_level_only": 1e-05,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.006285189086107234,
+      "final_abs_error": 0.003535302896551684,
+      "escaped_at": null,
+      "mean_abs_x": 0.06638969251307317
+    },
+    "level_only": {
+      "basin_occupancy": 0.008,
+      "mean_abs_error": 9.97707794034018,
+      "final_abs_error": 19.957066205160647,
+      "escaped_at": 4,
+      "mean_abs_x": 1.5628297573756243e+80
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.008,
+        "mean_abs_error": 9.977077880363494,
+        "final_abs_error": 19.957066144943088,
+        "escaped_at": 4,
+        "mean_abs_x": 1.5628281209451158e+80
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.005859771270130909,
+        "final_abs_error": 0.003053295036767878,
+        "escaped_at": null,
+        "mean_abs_x": 0.06599938220694657
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.006200378176882408,
+        "final_abs_error": 0.002991413763609785,
+        "escaped_at": null,
+        "mean_abs_x": 0.06594403476263402
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 1587.3950240282827,
+      "freeze_rate_state": 0.9323142374639662,
+      "cut_rate_update": 0.986506227885444
+    },
+    "score": 1588.3950240282827
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.15,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.02,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.0,
+      "regime_rate_damping": 0.015,
+      "obs_noise": 0.005,
+      "obs_every": 20,
+      "q_level": 1e-05,
+      "q_rate": 0.0005,
+      "q_level_only": 1e-06,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.006034481639599145,
+      "final_abs_error": 0.004632298658194145,
+      "escaped_at": null,
+      "mean_abs_x": 0.05842754655986411
+    },
+    "level_only": {
+      "basin_occupancy": 0.038,
+      "mean_abs_error": 8.830430327446532,
+      "final_abs_error": 16.629098945745977,
+      "escaped_at": 19,
+      "mean_abs_x": 6.15600252807613e+72
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.038,
+        "mean_abs_error": 8.830430325995758,
+        "final_abs_error": 16.62909894428938,
+        "escaped_at": 19,
+        "mean_abs_x": 6.156002367561618e+72
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.05556453662658432,
+        "final_abs_error": 0.22070997287111993,
+        "escaped_at": null,
+        "mean_abs_x": 0.044474326603115004
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.06159704266157596,
+        "final_abs_error": 0.23348346170014267,
+        "escaped_at": null,
+        "mean_abs_x": 0.0433430342704018
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 1463.3287253786957,
+      "freeze_rate_state": 9.207839205601648,
+      "cut_rate_update": 10.20751181963455
+    },
+    "score": 1466.3287253786957
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.15,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.02,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.005,
+      "regime_rate_damping": 0.0,
+      "obs_noise": 0.005,
+      "obs_every": 40,
+      "q_level": 0.0001,
+      "q_rate": 1e-05,
+      "q_level_only": 1e-06,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.00707419034817303,
+      "final_abs_error": 3.408719157604878e-05,
+      "escaped_at": null,
+      "mean_abs_x": 0.05775001199939254
+    },
+    "level_only": {
+      "basin_occupancy": 0.038,
+      "mean_abs_error": 9.62556968084992,
+      "final_abs_error": 18.885281544718108,
+      "escaped_at": 19,
+      "mean_abs_x": 9.709410120430944e+77
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.038,
+        "mean_abs_error": 9.625569664897796,
+        "final_abs_error": 18.885281528701917,
+        "escaped_at": 19,
+        "mean_abs_x": 9.709407393277297e+77
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.024335709618614986,
+        "final_abs_error": 0.03316887861049267,
+        "escaped_at": null,
+        "mean_abs_x": 0.05120704178591792
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.024720473286796257,
+        "final_abs_error": 0.033707249612071166,
+        "escaped_at": null,
+        "mean_abs_x": 0.051059658775115965
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 1360.6602580864512,
+      "freeze_rate_state": 3.4400699473544547,
+      "cut_rate_update": 3.4944597289752783
+    },
+    "score": 1363.6602580864512
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.15,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.002,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.0,
+      "regime_rate_damping": 0.0,
+      "obs_noise": 0.005,
+      "obs_every": 10,
+      "q_level": 1e-06,
+      "q_rate": 1e-05,
+      "q_level_only": 1e-05,
+      "initial_a": 0.15,
+      "initial_rate": 0.35,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.003322090734490805,
+      "final_abs_error": 0.002503295819266782,
+      "escaped_at": null,
+      "mean_abs_x": 0.08324015590386012
+    },
+    "level_only": {
+      "basin_occupancy": 0.13,
+      "mean_abs_error": 3.4222513521121884,
+      "final_abs_error": 7.715238295673895,
+      "escaped_at": 65,
+      "mean_abs_x": 1.0093257852442595e+30
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.072,
+        "mean_abs_error": 4.016990865239402,
+        "final_abs_error": 8.367837454042403,
+        "escaped_at": 36,
+        "mean_abs_x": 2.624731121608269e+35
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.002578854043501128,
+        "final_abs_error": 0.0015346726980745018,
+        "escaped_at": null,
+        "mean_abs_x": 0.0830694467137202
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.0031025033039441567,
+        "final_abs_error": 0.00149562735183828,
+        "escaped_at": null,
+        "mean_abs_x": 0.08299423194537257
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 1209.1755422372917,
+      "freeze_rate_state": 0.7762744156042453,
+      "cut_rate_update": 0.9339008329101807
+    },
+    "score": 1210.1755422372917
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.15,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.002,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.005,
+      "regime_rate_damping": 0.005,
+      "obs_noise": 0.005,
+      "obs_every": 20,
+      "q_level": 1e-06,
+      "q_rate": 1e-05,
+      "q_level_only": 0.0001,
+      "initial_a": 0.15,
+      "initial_rate": 0.5,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.004635429459876353,
+      "final_abs_error": 0.0016408766962605625,
+      "escaped_at": null,
+      "mean_abs_x": 0.07519536082437105
+    },
+    "level_only": {
+      "basin_occupancy": 0.07,
+      "mean_abs_error": 5.389142249033625,
+      "final_abs_error": 10.975858529205123,
+      "escaped_at": 35,
+      "mean_abs_x": 5.343767620613709e+46
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.056,
+        "mean_abs_error": 5.5507107198900645,
+        "final_abs_error": 11.144159019297184,
+        "escaped_at": 28,
+        "mean_abs_x": 1.299182919608743e+48
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.02491994960148002,
+        "final_abs_error": 0.09367526982424934,
+        "escaped_at": null,
+        "mean_abs_x": 0.06499206879350455
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.023004887909793867,
+        "final_abs_error": 0.08956761720651052,
+        "escaped_at": null,
+        "mean_abs_x": 0.0657276727866418
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 1197.4533897961908,
+      "freeze_rate_state": 5.375974290447889,
+      "cut_rate_update": 4.962838526380575
+    },
+    "score": 1200.4533897961908
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.12,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.005,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.0,
+      "regime_rate_damping": 0.005,
+      "obs_noise": 0.01,
+      "obs_every": 20,
+      "q_level": 1e-05,
+      "q_rate": 1e-05,
+      "q_level_only": 1e-06,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.007999919492844005,
+      "final_abs_error": 0.00460482507309834,
+      "escaped_at": null,
+      "mean_abs_x": 0.07364739022490678
+    },
+    "level_only": {
+      "basin_occupancy": 0.008,
+      "mean_abs_error": 9.570671907234825,
+      "final_abs_error": 18.755077702416468,
+      "escaped_at": 4,
+      "mean_abs_x": 5.416854397925804e+77
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.008,
+        "mean_abs_error": 9.570671901231137,
+        "final_abs_error": 18.75507769638867,
+        "escaped_at": 4,
+        "mean_abs_x": 5.416853824776851e+77
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.026578142350722048,
+        "final_abs_error": 0.09623948023841322,
+        "escaped_at": null,
+        "mean_abs_x": 0.06304164101610252
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.022590959603009105,
+        "final_abs_error": 0.08639113724766645,
+        "escaped_at": null,
+        "mean_abs_x": 0.06478921239002094
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 1196.3460269559191,
+      "freeze_rate_state": 3.322301227468154,
+      "cut_rate_update": 2.8238983683794454
+    },
+    "score": 1199.3460269559191
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.12,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.002,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.005,
+      "regime_rate_damping": 0.0,
+      "obs_noise": 0.01,
+      "obs_every": 40,
+      "q_level": 0.0001,
+      "q_rate": 1e-05,
+      "q_level_only": 0.0001,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.009754653248082962,
+      "final_abs_error": 0.0039055847494502416,
+      "escaped_at": null,
+      "mean_abs_x": 0.07470905148892906
+    },
+    "level_only": {
+      "basin_occupancy": 0.008,
+      "mean_abs_error": 9.624122403327526,
+      "final_abs_error": 18.883828454836188,
+      "escaped_at": 4,
+      "mean_abs_x": 1.2977107055348671e+78
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.008,
+        "mean_abs_error": 9.624122403327526,
+        "final_abs_error": 18.883828454836188,
+        "escaped_at": 4,
+        "mean_abs_x": 1.2977107055348671e+78
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.02440664438719297,
+        "final_abs_error": 0.036991372539958434,
+        "escaped_at": null,
+        "mean_abs_x": 0.0643492267106703
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.024359972440746717,
+        "final_abs_error": 0.036878027844664985,
+        "escaped_at": null,
+        "mean_abs_x": 0.06433380535570732
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 986.6186074034882,
+      "freeze_rate_state": 2.5020514585681966,
+      "cut_rate_update": 2.497266875737902
+    },
+    "score": 989.6186074034882
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.15,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.002,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.005,
+      "regime_rate_damping": 0.015,
+      "obs_noise": 0.005,
+      "obs_every": 10,
+      "q_level": 0.0001,
+      "q_rate": 1e-05,
+      "q_level_only": 0.0001,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.008197650891598542,
+      "final_abs_error": 0.015586719934717053,
+      "escaped_at": null,
+      "mean_abs_x": 0.07626059978775579
+    },
+    "level_only": {
+      "basin_occupancy": 0.058,
+      "mean_abs_error": 7.703399206009397,
+      "final_abs_error": 14.803336070576615,
+      "escaped_at": 29,
+      "mean_abs_x": 3.421906346364199e+64
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.058,
+        "mean_abs_error": 7.703399206009397,
+        "final_abs_error": 14.803336070576615,
+        "escaped_at": 29,
+        "mean_abs_x": 3.421906346364199e+64
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.03685692578812634,
+        "final_abs_error": 0.1311278112978016,
+        "escaped_at": null,
+        "mean_abs_x": 0.06344351696917871
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.03641345786858075,
+        "final_abs_error": 0.1302645383696266,
+        "escaped_at": null,
+        "mean_abs_x": 0.06359296442793194
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 939.7081319850197,
+      "freeze_rate_state": 4.496035056323219,
+      "cut_rate_update": 4.441938105207616
+    },
+    "score": 942.7081319850197
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.12,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.02,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.02,
+      "regime_rate_damping": 0.0,
+      "obs_noise": 0.005,
+      "obs_every": 10,
+      "q_level": 1e-05,
+      "q_rate": 0.0005,
+      "q_level_only": 0.0001,
+      "initial_a": 0.15,
+      "initial_rate": 0.5,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.0056497835888213825,
+      "final_abs_error": 0.005019167548118375,
+      "escaped_at": null,
+      "mean_abs_x": 0.06465921255614361
+    },
+    "level_only": {
+      "basin_occupancy": 0.03,
+      "mean_abs_error": 5.256777145756496,
+      "final_abs_error": 10.6846463603875,
+      "escaped_at": 5,
+      "mean_abs_x": 4.446626337785318e+45
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.028,
+        "mean_abs_error": 5.290203213443711,
+        "final_abs_error": 10.718754592569626,
+        "escaped_at": 5,
+        "mean_abs_x": 8.674986487930935e+45
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.02492964933105852,
+        "final_abs_error": 0.08058013388710172,
+        "escaped_at": null,
+        "mean_abs_x": 0.054625421935850405
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.02891657384964431,
+        "final_abs_error": 0.08759238436447525,
+        "escaped_at": null,
+        "mean_abs_x": 0.053193404900435226
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 936.3550179003078,
+      "freeze_rate_state": 4.412496326475961,
+      "cut_rate_update": 5.118173713212381
+    },
+    "score": 939.3550179003078
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.12,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.02,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.005,
+      "regime_rate_damping": 0.005,
+      "obs_noise": 0.01,
+      "obs_every": 20,
+      "q_level": 1e-06,
+      "q_rate": 0.0001,
+      "q_level_only": 0.0001,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.009884601273863291,
+      "final_abs_error": 0.0022824183437464285,
+      "escaped_at": null,
+      "mean_abs_x": 0.06103421872219525
+    },
+    "level_only": {
+      "basin_occupancy": 0.008,
+      "mean_abs_error": 9.228055995126432,
+      "final_abs_error": 17.72440925118133,
+      "escaped_at": 4,
+      "mean_abs_x": 2.6467672834624785e+75
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.008,
+        "mean_abs_error": 9.228056061092957,
+        "final_abs_error": 17.724409317412782,
+        "escaped_at": 4,
+        "mean_abs_x": 2.646770388794107e+75
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.03155008278018772,
+        "final_abs_error": 0.12183693662559847,
+        "escaped_at": null,
+        "mean_abs_x": 0.05201618300008414
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.03147938968770116,
+        "final_abs_error": 0.12178972746605865,
+        "escaped_at": null,
+        "mean_abs_x": 0.05199739930044777
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 933.5789887138533,
+      "freeze_rate_state": 3.1918417249274342,
+      "cut_rate_update": 3.1846898843495564
+    },
+    "score": 936.5789887138533
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.25,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.002,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.0,
+      "regime_rate_damping": 0.005,
+      "obs_noise": 0.02,
+      "obs_every": 10,
+      "q_level": 1e-05,
+      "q_rate": 1e-05,
+      "q_level_only": 0.0001,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.010159406695586811,
+      "final_abs_error": 0.012282275484132299,
+      "escaped_at": null,
+      "mean_abs_x": 0.082792572268919
+    },
+    "level_only": {
+      "basin_occupancy": 0.118,
+      "mean_abs_error": 7.825786498807974,
+      "final_abs_error": 16.893648974757426,
+      "escaped_at": 59,
+      "mean_abs_x": 2.5851923512916268e+64
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.078,
+        "mean_abs_error": 8.841364964654963,
+        "final_abs_error": 17.993666981568207,
+        "escaped_at": 39,
+        "mean_abs_x": 1.8301340019607433e+72
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.027639801594986007,
+        "final_abs_error": 0.07822649928823111,
+        "escaped_at": null,
+        "mean_abs_x": 0.07087263533747523
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.017556049624250194,
+        "final_abs_error": 0.0480006605803851,
+        "escaped_at": null,
+        "mean_abs_x": 0.07804301780893873
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 870.2639070936693,
+      "freeze_rate_state": 2.7206117860201995,
+      "cut_rate_update": 1.7280585520684433
+    },
+    "score": 872.2639070936693
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.12,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.002,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.005,
+      "regime_rate_damping": 0.015,
+      "obs_noise": 0.01,
+      "obs_every": 10,
+      "q_level": 0.0001,
+      "q_rate": 1e-05,
+      "q_level_only": 0.0001,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.010488058842786472,
+      "final_abs_error": 0.018308599634139,
+      "escaped_at": null,
+      "mean_abs_x": 0.07628475056344389
+    },
+    "level_only": {
+      "basin_occupancy": 0.008,
+      "mean_abs_error": 8.505627455008097,
+      "final_abs_error": 15.67495192912843,
+      "escaped_at": 4,
+      "mean_abs_x": 5.844526101550371e+70
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.008,
+        "mean_abs_error": 8.505627455008097,
+        "final_abs_error": 15.67495192912843,
+        "escaped_at": 4,
+        "mean_abs_x": 5.844526101550371e+70
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.041471463619199324,
+        "final_abs_error": 0.14052177344492023,
+        "escaped_at": null,
+        "mean_abs_x": 0.062273969766126
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.037110706854639984,
+        "final_abs_error": 0.13177661691550213,
+        "escaped_at": null,
+        "mean_abs_x": 0.0640253396131211
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 810.982049443605,
+      "freeze_rate_state": 3.954160082513531,
+      "cut_rate_update": 3.5383770639467915
+    },
+    "score": 813.982049443605
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.25,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.002,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.02,
+      "regime_rate_damping": 0.015,
+      "obs_noise": 0.005,
+      "obs_every": 20,
+      "q_level": 1e-06,
+      "q_rate": 1e-05,
+      "q_level_only": 1e-06,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.009820301178394634,
+      "final_abs_error": 0.0076223112820539285,
+      "escaped_at": null,
+      "mean_abs_x": 0.06938154326117331
+    },
+    "level_only": {
+      "basin_occupancy": 0.074,
+      "mean_abs_error": 7.867864069865284,
+      "final_abs_error": 15.190525100568713,
+      "escaped_at": 37,
+      "mean_abs_x": 7.13283969914953e+65
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.074,
+        "mean_abs_error": 7.867864069865284,
+        "final_abs_error": 15.190525100568713,
+        "escaped_at": 37,
+        "mean_abs_x": 7.13283969914953e+65
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.10532959426561678,
+        "final_abs_error": 0.37492529058829405,
+        "escaped_at": null,
+        "mean_abs_x": 0.04458014616534361
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.09668156818541766,
+        "final_abs_error": 0.3585690685007492,
+        "escaped_at": null,
+        "mean_abs_x": 0.0457921046658355
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 801.1835815356812,
+      "freeze_rate_state": 10.72569897319946,
+      "cut_rate_update": 9.84507159496534
+    },
+    "score": 804.1835815356812
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.12,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.02,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.0,
+      "regime_rate_damping": 0.005,
+      "obs_noise": 0.005,
+      "obs_every": 40,
+      "q_level": 0.0001,
+      "q_rate": 0.0005,
+      "q_level_only": 1e-06,
+      "initial_a": 0.15,
+      "initial_rate": 0.35,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.00529410290512144,
+      "final_abs_error": 0.006757718511074984,
+      "escaped_at": null,
+      "mean_abs_x": 0.06042687564377722
+    },
+    "level_only": {
+      "basin_occupancy": 0.034,
+      "mean_abs_error": 4.186965519068122,
+      "final_abs_error": 8.20514223743058,
+      "escaped_at": 5,
+      "mean_abs_x": 7.918501955123093e+36
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.034,
+        "mean_abs_error": 4.18696551176774,
+        "final_abs_error": 8.20514223010088,
+        "escaped_at": 5,
+        "mean_abs_x": 7.918500741269619e+36
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.017634703573915757,
+        "final_abs_error": 0.03956099715111705,
+        "escaped_at": null,
+        "mean_abs_x": 0.05482678957761658
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.018479706027734865,
+        "final_abs_error": 0.04158224706465141,
+        "escaped_at": null,
+        "mean_abs_x": 0.05453282519121945
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 790.8734655908047,
+      "freeze_rate_state": 3.331008839449682,
+      "cut_rate_update": 3.4906208585136986
+    },
+    "score": 793.8734655908047
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.12,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.002,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.005,
+      "regime_rate_damping": 0.005,
+      "obs_noise": 0.005,
+      "obs_every": 10,
+      "q_level": 0.0001,
+      "q_rate": 0.0005,
+      "q_level_only": 0.0001,
+      "initial_a": 0.15,
+      "initial_rate": 0.35,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.004391703798551797,
+      "final_abs_error": 0.0037468942790814808,
+      "escaped_at": null,
+      "mean_abs_x": 0.08243516172400984
+    },
+    "level_only": {
+      "basin_occupancy": 0.032,
+      "mean_abs_error": 3.4622812998035237,
+      "final_abs_error": 6.728374104544857,
+      "escaped_at": 4,
+      "mean_abs_x": 5.977339394279708e+30
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.032,
+        "mean_abs_error": 3.4622812998035237,
+        "final_abs_error": 6.728374104544857,
+        "escaped_at": 4,
+        "mean_abs_x": 5.977339394279708e+30
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.011138033274354036,
+        "final_abs_error": 0.03736600295721093,
+        "escaped_at": null,
+        "mean_abs_x": 0.07607857366059344
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.01218070761533991,
+        "final_abs_error": 0.03970342635549429,
+        "escaped_at": null,
+        "mean_abs_x": 0.07532255843581248
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 788.3685828140872,
+      "freeze_rate_state": 2.536153116252262,
+      "cut_rate_update": 2.7735722111670205
+    },
+    "score": 791.3685828140872
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.12,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.02,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.02,
+      "regime_rate_damping": 0.015,
+      "obs_noise": 0.01,
+      "obs_every": 10,
+      "q_level": 1e-05,
+      "q_rate": 0.0005,
+      "q_level_only": 0.0001,
+      "initial_a": 0.15,
+      "initial_rate": 0.8,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.009583792704240651,
+      "final_abs_error": 0.010416931099129556,
+      "escaped_at": null,
+      "mean_abs_x": 0.06417245948533423
+    },
+    "level_only": {
+      "basin_occupancy": 0.008,
+      "mean_abs_error": 7.535560754219135,
+      "final_abs_error": 12.816870233217875,
+      "escaped_at": 4,
+      "mean_abs_x": 8.825098842674492e+63
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.008,
+        "mean_abs_error": 7.535560814154351,
+        "final_abs_error": 12.816870293393794,
+        "escaped_at": 4,
+        "mean_abs_x": 8.825108689666279e+63
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.053243686504733274,
+        "final_abs_error": 0.17755392941781345,
+        "escaped_at": null,
+        "mean_abs_x": 0.047155048337397844
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.05548445883945857,
+        "final_abs_error": 0.18245439523927942,
+        "escaped_at": null,
+        "mean_abs_x": 0.046651111125381214
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 786.2816993965245,
+      "freeze_rate_state": 5.555596635679936,
+      "cut_rate_update": 5.789405150103855
+    },
+    "score": 789.2816993965245
+  },
+  {
+    "config": {
+      "seed": 7,
+      "dt": 0.05,
+      "steps": 500,
+      "basin": 0.25,
+      "init_x": 0.12,
+      "base_growth": 0.35,
+      "control_margin": 0.005,
+      "plant_noise": 0.006,
+      "regime_accel_noise": 0.0,
+      "regime_rate_damping": 0.005,
+      "obs_noise": 0.005,
+      "obs_every": 10,
+      "q_level": 0.0001,
+      "q_rate": 1e-05,
+      "q_level_only": 0.0001,
+      "initial_a": 0.15,
+      "initial_rate": 0.5,
+      "t_basin": 0.8,
+      "t_calib_error": 0.1,
+      "t_rate_lesion_ratio": 1.75,
+      "t_enforcement_max": 0.15,
+      "t_negative_max": 0.35
+    },
+    "full": {
+      "basin_occupancy": 1.0,
+      "mean_abs_error": 0.003684519788050097,
+      "final_abs_error": 0.005233974213153303,
+      "escaped_at": null,
+      "mean_abs_x": 0.0786314345068546
+    },
+    "level_only": {
+      "basin_occupancy": 0.32,
+      "mean_abs_error": 2.735256549424108,
+      "final_abs_error": 7.814652864329008,
+      "escaped_at": 160,
+      "mean_abs_x": 1.933200467889834e+23
+    },
+    "lesions": {
+      "freeze_rate_prediction": {
+        "basin_occupancy": 0.32,
+        "mean_abs_error": 2.735256549424108,
+        "final_abs_error": 7.814652864329008,
+        "escaped_at": 160,
+        "mean_abs_x": 1.933200467889829e+23
+      },
+      "freeze_rate_state": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.00786332264028694,
+        "final_abs_error": 0.02791900224062438,
+        "escaped_at": null,
+        "mean_abs_x": 0.0756845478846125
+      },
+      "cut_rate_update": {
+        "basin_occupancy": 1.0,
+        "mean_abs_error": 0.007790423523747279,
+        "final_abs_error": 0.027739313052370207,
+        "escaped_at": null,
+        "mean_abs_x": 0.07571103920601135
+      }
+    },
+    "degraded_direct_lesions": [
+      "freeze_rate_prediction",
+      "freeze_rate_state",
+      "cut_rate_update"
+    ],
+    "ratios": {
+      "freeze_rate_prediction": 742.3644617937163,
+      "freeze_rate_state": 2.134151285003229,
+      "cut_rate_update": 2.1143660427645816
+    },
+    "score": 745.3644617937163
+  }
+]
